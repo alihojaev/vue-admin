@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^6.5.95",
+    "@nuxtjs/vuetify": "^0.1.1",
+    "@pinia/nuxt": "^0.5.1",
+    "@schedule-x/calendar-controls": "^2.14.2",
+    "@schedule-x/current-time": "^2.14.2",
+    "@schedule-x/events-service": "^2.14.2",
+    "@schedule-x/resize": "^2.14.2",
+    "@schedule-x/theme-default": "^2.14.2",
+    "@schedule-x/vue": "^2.12.1",
+    "@stomp/stompjs": "^7.0.0",
+    "@tiptap/starter-kit": "2.0.0-beta.192",
+    "@tiptap/vue-3": "2.0.0-beta.97",
+    "apexcharts": "3.36.3",
+    "axios": "^1.7.2",
+    "nuxt-storage": "^1.2.2",
+    "pinia": "2.1.7",
+    "qalendar": "^3.9.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^10.0.0",
+    "supports-color": "^10.0.0",
+    "sockjs-client": "^1.6.1",
+    "stompjs": "^2.3.3",
+    "vue": "3.4.26",
+    "vue-style-loader": "^4.1.3",
+    "vue-tabler-icons": "2.9.0",
+    "vue3-apexcharts": "1.4.1",
+    "vue3-perfect-scrollbar": "1.6.1",
+    "vuetify": "3.6.8",
+    "vuex": "^4.0.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "nuxt": "^3.15.1",
+    "nuxt-icon": "^0.6.10"
+  }
+}

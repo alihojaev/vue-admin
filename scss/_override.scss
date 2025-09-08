@@ -1,0 +1,100 @@
+html {
+    .bg-success {
+        color: white !important;
+    }
+
+    .bg-primary {
+        color: $white !important;
+    }
+
+    .bg-secondary {
+        color: $white !important;
+    }
+
+    .bg-warning {
+        color: $white !important;
+    }
+}
+.border,
+.v-divider {
+    border-color: rgba(var(--v-border-color), 1) !important;
+}
+
+.v-application__wrap {
+    background-color: rgba(0, 0, 0, .03);
+}
+
+nav {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+}
+
+
+.v-data-table-header__content {
+    font-weight: 700 !important;
+    font-size: 0.875rem !important;
+    line-height: 1.1rem;
+    letter-spacing: 0.009375em !important;
+    font-family: inherit;
+    text-transform: none !important;
+}
+
+.v-data-table__td {
+    border-bottom: 1px solid $light-grey !important;
+}
+
+tr:last-child td { border-bottom: none !important; }
+
+.v-table > .v-table__wrapper > table {
+    border: 1px solid $light-grey !important;
+    border-radius: 15px;
+}
+
+.v-card {
+    border-radius: 15px !important;
+}
+
+.v-btn {
+    border-radius: 10px !important;
+}
+
+.v-field {
+    border-radius: 15px !important;
+}
+
+.v-menu > .v-overlay__content {
+    border-radius: 10px !important;
+}
+
+.v-input__details {
+    min-height: 20px !important;
+    padding-top: 0 !important;
+}
+
+.v-card {
+    border: 1px solid $light-grey !important;
+}
+
+button {
+    font-weight: 400 !important;
+}
+
+.v-data-table-header__content {
+    font-weight: 600 !important;
+}
+
+.v-pagination__item, .v-pagination__first, .v-pagination__prev, .v-pagination__next, .v-pagination__last {
+    margin: 0.1rem;
+}
+
+.v-table > .v-table__wrapper > table > tbody > tr > td, .v-table > .v-table__wrapper > table > tbody > tr > th, .v-table > .v-table__wrapper > table > thead > tr > td, .v-table > .v-table__wrapper > table > thead > tr > th, .v-table > .v-table__wrapper > table > tfoot > tr > td, .v-table > .v-table__wrapper > table > tfoot > tr > th {
+    padding: 0 12px 0 20px !important;
+}
+
+.grey-text {
+    color: $grey-text;
+}
+
